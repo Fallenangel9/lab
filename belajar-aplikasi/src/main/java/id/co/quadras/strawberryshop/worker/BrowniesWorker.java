@@ -7,9 +7,6 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by achmad on 5/8/2014.
- */
 public class BrowniesWorker implements Worker {
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
@@ -17,6 +14,7 @@ public class BrowniesWorker implements Worker {
     public List<Strawberry> work(List<Byte> ids) {
 //        final List<Strawberry> strawberries = new ArrayList<Strawberry>();
         //for each loop
+        //test
 //        for (Byte id : ids) {
 //            if (id > 1)
 //                continue;
